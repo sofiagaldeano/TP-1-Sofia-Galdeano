@@ -149,13 +149,13 @@ p{
     }
     
     .artes {
-        margin-left: 12px;
-        gap: 20px;
-        width: auto
+        width: auto;
+        gap: 30px;
 
     }
     .artes img{
-        width: 180px;
+        width: 155px;
+        margin-left: 25px;
     }
 
     a{
