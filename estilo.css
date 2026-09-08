@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap);
+
+body{
+    background-color: rgb(237, 197, 248);
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+main{
+    background-color: #e8e3ed;
+    width: 900px;
+    height: 610px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.perfil h1{
+    margin: 10px 0px;
+    font-family: "Boldonse", system-ui;
+    font-size:  28px;
+    color: #8e44ad;
+}
+
+.perfil{
+   width: 300px;
+   padding-left: 20px;
+   
+}
+
+
+.galeria{
+    margin-left: 30px;
+}
+
+
+.perfil img {
+    width: 265px;
+    border-radius: 10px;
+    
+}
+
+
+.galeria img{
+    max-width: 95%;
+}
+
+.artegrande{
+    width: 500px;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+
+
+.artes {
+    display: flex;
+    gap:50px;
+    width: 470px;
+    margin: 0 auto;
+}
+
+.artes img{
+    width: 210px;
+    border-radius: 10px;
+    
+}
+
+a{
+    background-color: #222;
+    color: white;
+    padding: 8px 110px;
+    text-decoration: none;
+    border: 1px solid #222;
+    border-radius: 20px;
+}
+
+a:hover {
+    background-color: #8e44ad;
+    color: white;
+
+}
+
+h3 {
+  color:  #4b315c; 
+}
+
+ul{
+    padding-left: 20px;
+}
+
+
+.perfil h2{
+    font-size: 18px;
+    color: #4b315c;
+    padding: 3px 9px;
+    margin-right: 10px;
+    border: 1px solid #222; ;
+    border-radius: 20px;
+    border-color:  #8e44ad;
+}
+
+.galeria h2{
+    text-align: center;
+    font-size: 18px;
+    color: #4b315c;
+    padding: 3px 7px;
+    border: 1px solid #222; ;
+    border-radius: 20px;
+    border-color:  #8e44ad;
+}
+
+p{
+    font-size: 16px;
+    margin: 10px ;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+
+    main {
+      width: 500px;
+      max-width: 85%;
+      height: auto;
+      display: block;
+      padding: 20px;
+      margin: 20px auto;
+    }
+
+    .perfil{
+        width: auto;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .galeria{
+        width: auto;
+        margin-left: 0px;
+    }
+
+    .artegrande{
+        width: auto;
+        margin-left: 12px;
+    }
+    
+    .artes {
+        margin-left: 12px;
+        gap: 20px;
+        width: auto
+
+    }
+    .artes img{
+        width: 180px;
+    }
+
+    a{
+        margin: 0 auto 20px;
+        display: block;
+        text-align: center;
+    }
+
+
+    
+}
